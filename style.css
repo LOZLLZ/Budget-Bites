@@ -1,0 +1,68 @@
+:root {
+    --dun: #D9CDB6;
+    --bone: #E5DBC6;
+    --british-racing-green: #194529;
+    --dun-2: #D1C1A8;
+    --cal-poly-green: #21472D;
+    --brown: #A53E15;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bone);
+    color: var(--british-racing-green);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    background-color: var(--cal-poly-green);
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* MAIN CONTAINER */
+.container {
+    background: var(--dun);
+    margin: 50px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* LOGO */
+.logo {
+    max-width: 120px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BUTTONS */
+.button {
+    display: block;
+    text-decoration: none;
+    background-color: var(--british-racing-green);
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: var(--brown);
+    transform: scale(1.05);
+}

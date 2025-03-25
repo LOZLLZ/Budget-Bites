@@ -1,0 +1,8 @@
+{
+    "meals": [
+        { "name": "Chicken Adobo", "price": 120 },
+        { "name": "Pancit Canton", "price": 80 },
+        { "name": "Sinigang na Baboy", "price": 150 },
+        { "name": "Tapsilog", "price": 100 }
+    ]
+}
