@@ -1,13 +1,44 @@
 {
     "meals": [
         {
+            "name": "Tinolang Manok",
+            "price": 120,
+            "calories": 250,
+            "protein": 35,
+            "carbs": 5,
+            "fats": 10,
+            "ingredients": ["Chicken", "Ginger", "Papaya", "Spinach", "Garlic", "Onion"],
+            "grocery_stores": ["SM Supermarket Manila", "Puregold Taytay", "Robinsons Supermarket Mandaluyong"]
+        },
+        {
+            "name": "Laing with Brown Rice",
+            "price": 100,
+            "calories": 320,
+            "protein": 10,
+            "carbs": 55,
+            "fats": 12,
+            "ingredients": ["Taro leaves", "Coconut milk", "Chili", "Dried fish", "Garlic", "Brown rice"],
+            "grocery_stores": ["Rustan’s Supermarket Makati", "AllDay Supermarket Antipolo", "SM Hypermarket Pasig"]
+        },
+        {
+            "name": "Inihaw na Bangus",
+            "price": 140,
+            "calories": 280,
+            "protein": 38,
+            "carbs": 8,
+            "fats": 12,
+            "ingredients": ["Bangus (Milkfish)", "Tomato", "Onion", "Lemon", "Salt", "Pepper"],
+            "grocery_stores": ["Landers Superstore BGC", "Robinsons Supermarket Marikina", "S&R Membership Shopping Alabang"]
+        },
+        {
             "name": "Grilled Chicken Salad",
             "price": 120,
             "calories": 250,
             "protein": 30,
             "carbs": 10,
             "fats": 8,
-            "ingredients": ["Grilled chicken", "Lettuce", "Tomatoes", "Cucumbers", "Olive oil", "Lemon"]
+            "ingredients": ["Grilled chicken", "Lettuce", "Tomatoes", "Cucumbers", "Olive oil", "Lemon"],
+            "grocery_stores": ["SM Supermarket Manila", "Puregold Taytay", "Robinsons Supermarket Mandaluyong"]
         },
         {
             "name": "Quinoa and Vegetable Stir-Fry",
@@ -16,7 +47,8 @@
             "protein": 12,
             "carbs": 50,
             "fats": 10,
-            "ingredients": ["Quinoa", "Broccoli", "Carrots", "Bell peppers", "Soy sauce", "Garlic"]
+            "ingredients": ["Quinoa", "Broccoli", "Carrots", "Bell peppers", "Soy sauce", "Garlic"],
+            "grocery_stores": ["Rustan’s Supermarket Makati", "AllDay Supermarket Antipolo", "SM Hypermarket Pasig"]
         },
         {
             "name": "Salmon with Steamed Vegetables",
@@ -25,7 +57,8 @@
             "protein": 35,
             "carbs": 15,
             "fats": 22,
-            "ingredients": ["Salmon fillet", "Broccoli", "Carrots", "Olive oil", "Lemon", "Herbs"]
+            "ingredients": ["Salmon fillet", "Broccoli", "Carrots", "Olive oil", "Lemon", "Herbs"],
+            "grocery_stores": ["Landers Superstore BGC", "Robinsons Supermarket Marikina", "S&R Membership Shopping Alabang"]
         },
         {
             "name": "Oatmeal with Fruits and Nuts",
@@ -34,7 +67,8 @@
             "protein": 10,
             "carbs": 45,
             "fats": 7,
-            "ingredients": ["Oats", "Banana", "Almonds", "Chia seeds", "Milk", "Honey"]
+            "ingredients": ["Oats", "Banana", "Almonds", "Chia seeds", "Milk", "Honey"],
+            "grocery_stores": ["Shopwise Cubao", "WalterMart Makati", "Allday Supermarket San Mateo"]
         },
         {
             "name": "Brown Rice with Tofu and Vegetables",
@@ -43,52 +77,78 @@
             "protein": 20,
             "carbs": 55,
             "fats": 8,
-            "ingredients": ["Brown rice", "Tofu", "Bell peppers", "Zucchini", "Soy sauce", "Sesame oil"]
+            "ingredients": ["Brown rice", "Tofu", "Bell peppers", "Zucchini", "Soy sauce", "Sesame oil"],
+            "grocery_stores": ["SM Hypermarket Ortigas", "Puregold Cainta", "Landers Superstore Otis"]
         },
         {
-            "name": "Lentil Soup",
-            "price": 80,
-            "calories": 290,
-            "protein": 18,
+            "name": "Pochero (Beef Stew with Vegetables)",
+            "price": 150,
+            "calories": 400,
+            "protein": 30,
             "carbs": 40,
-            "fats": 6,
-            "ingredients": ["Lentils", "Carrots", "Celery", "Onion", "Garlic", "Vegetable broth"]
-        },
-        {
-            "name": "Avocado Toast with Eggs",
-            "price": 100,
-            "calories": 350,
-            "protein": 18,
-            "carbs": 30,
             "fats": 18,
-            "ingredients": ["Whole grain bread", "Avocado", "Eggs", "Lemon", "Salt", "Pepper"]
+            "ingredients": ["Beef shank", "Saba banana", "Cabbage", "Tomato sauce", "Chickpeas", "Garlic"],
+            "grocery_stores": ["Shopwise Cubao", "WalterMart Makati", "Allday Supermarket San Mateo"]
         },
         {
-            "name": "Grilled Tuna with Sweet Potato Mash",
-            "price": 140,
-            "calories": 420,
-            "protein": 40,
-            "carbs": 35,
-            "fats": 12,
-            "ingredients": ["Tuna steak", "Sweet potato", "Garlic", "Butter", "Parsley", "Lemon"]
-        },
-        {
-            "name": "Greek Yogurt with Honey and Nuts",
-            "price": 80,
-            "calories": 220,
-            "protein": 15,
-            "carbs": 25,
-            "fats": 5,
-            "ingredients": ["Greek yogurt", "Honey", "Walnuts", "Almonds", "Cinnamon"]
-        },
-        {
-            "name": "Chickpea and Spinach Curry",
+            "name": "Paksiw na Isda",
             "price": 90,
-            "calories": 310,
-            "protein": 14,
+            "calories": 200,
+            "protein": 35,
+            "carbs": 5,
+            "fats": 8,
+            "ingredients": ["Tilapia", "Vinegar", "Garlic", "Onion", "Ginger", "Bay leaves"],
+            "grocery_stores": ["SM Hypermarket Ortigas", "Puregold Cainta", "Landers Superstore Otis"]
+        },
+        {
+            "name": "Arroz Caldo with Boiled Egg",
+            "price": 80,
+            "calories": 300,
+            "protein": 18,
+            "carbs": 50,
+            "fats": 8,
+            "ingredients": ["Glutinous rice", "Ginger", "Chicken", "Egg", "Garlic", "Spring onions"],
+            "grocery_stores": ["SM Supermarket Manila", "Puregold Taytay", "Robinsons Supermarket Mandaluyong"]
+        },
+        {
+            "name": "Pinakbet with Grilled Chicken",
+            "price": 110,
+            "calories": 350,
+            "protein": 30,
+            "carbs": 30,
+            "fats": 12,
+            "ingredients": ["Bitter gourd", "Eggplant", "Squash", "String beans", "Shrimp paste", "Grilled chicken"],
+            "grocery_stores": ["Rustan’s Supermarket Makati", "AllDay Supermarket Antipolo", "SM Hypermarket Pasig"]
+        },
+        {
+            "name": "Bulanglang (Vegetable Soup)",
+            "price": 90,
+            "calories": 180,
+            "protein": 15,
+            "carbs": 20,
+            "fats": 6,
+            "ingredients": ["Squash", "Tomatoes", "Okra", "Eggplant", "String beans", "Fish sauce"],
+            "grocery_stores": ["Landers Superstore BGC", "Robinsons Supermarket Marikina", "S&R Membership Shopping Alabang"]
+        },
+        {
+            "name": "Chicken Afritada with Brown Rice",
+            "price": 130,
+            "calories": 370,
+            "protein": 32,
             "carbs": 45,
-            "fats": 10,
-            "ingredients": ["Chickpeas", "Spinach", "Tomatoes", "Onion", "Garlic", "Curry powder"]
+            "fats": 12,
+            "ingredients": ["Chicken breast", "Tomato sauce", "Potato", "Carrots", "Bell peppers", "Brown rice"],
+            "grocery_stores": ["Shopwise Cubao", "WalterMart Makati", "Allday Supermarket San Mateo"]
+        },
+        {
+            "name": "Ginisang Ampalaya with Egg",
+            "price": 70,
+            "calories": 220,
+            "protein": 18,
+            "carbs": 10,
+            "fats": 8,
+            "ingredients": ["Bitter gourd", "Eggs", "Garlic", "Onion", "Tomatoes", "Soy sauce"],
+            "grocery_stores": ["SM Hypermarket Ortigas", "Puregold Cainta", "Landers Superstore Otis"]
         }
     ]
 }
