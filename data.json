@@ -2,138 +2,93 @@
     "meals": [
         {
             "name": "Grilled Chicken Salad",
-            "price": 150,
-            "calories": 350,
-            "protein": 40,
-            "carbs": 20,
+            "price": 120,
+            "calories": 250,
+            "protein": 30,
+            "carbs": 10,
+            "fats": 8,
+            "ingredients": ["Grilled chicken", "Lettuce", "Tomatoes", "Cucumbers", "Olive oil", "Lemon"]
+        },
+        {
+            "name": "Quinoa and Vegetable Stir-Fry",
+            "price": 100,
+            "calories": 320,
+            "protein": 12,
+            "carbs": 50,
             "fats": 10,
-            "ingredients": ["Grilled chicken breast", "Romaine lettuce", "Cherry tomatoes", "Cucumber", "Olive oil", "Lemon juice"]
+            "ingredients": ["Quinoa", "Broccoli", "Carrots", "Bell peppers", "Soy sauce", "Garlic"]
         },
         {
             "name": "Salmon with Steamed Vegetables",
-            "price": 180,
-            "calories": 420,
-            "protein": 45,
+            "price": 150,
+            "calories": 400,
+            "protein": 35,
             "carbs": 15,
-            "fats": 20,
-            "ingredients": ["Salmon fillet", "Broccoli", "Carrots", "Zucchini", "Garlic", "Olive oil"]
+            "fats": 22,
+            "ingredients": ["Salmon fillet", "Broccoli", "Carrots", "Olive oil", "Lemon", "Herbs"]
         },
         {
-            "name": "Quinoa and Black Bean Bowl",
-            "price": 120,
-            "calories": 400,
-            "protein": 18,
+            "name": "Oatmeal with Fruits and Nuts",
+            "price": 90,
+            "calories": 280,
+            "protein": 10,
+            "carbs": 45,
+            "fats": 7,
+            "ingredients": ["Oats", "Banana", "Almonds", "Chia seeds", "Milk", "Honey"]
+        },
+        {
+            "name": "Brown Rice with Tofu and Vegetables",
+            "price": 110,
+            "calories": 350,
+            "protein": 20,
             "carbs": 55,
             "fats": 8,
-            "ingredients": ["Quinoa", "Black beans", "Bell peppers", "Red onion", "Cilantro", "Lime juice"]
+            "ingredients": ["Brown rice", "Tofu", "Bell peppers", "Zucchini", "Soy sauce", "Sesame oil"]
         },
         {
-            "name": "Oatmeal with Bananas and Chia Seeds",
+            "name": "Lentil Soup",
             "price": 80,
-            "calories": 320,
-            "protein": 10,
-            "carbs": 60,
-            "fats": 7,
-            "ingredients": ["Oats", "Banana", "Chia seeds", "Almond milk", "Honey"]
-        },
-        {
-            "name": "Brown Rice with Grilled Tofu",
-            "price": 110,
-            "calories": 380,
-            "protein": 25,
-            "carbs": 50,
-            "fats": 12,
-            "ingredients": ["Brown rice", "Firm tofu", "Soy sauce", "Sesame oil", "Garlic", "Ginger"]
-        },
-        {
-            "name": "Vegetable Stir-fry with Tofu",
-            "price": 130,
-            "calories": 340,
-            "protein": 22,
-            "carbs": 40,
-            "fats": 10,
-            "ingredients": ["Tofu", "Broccoli", "Carrots", "Bell peppers", "Soy sauce", "Sesame seeds"]
-        },
-        {
-            "name": "Baked Sweet Potatoes with Avocado",
-            "price": 100,
-            "calories": 380,
-            "protein": 5,
-            "carbs": 55,
-            "fats": 15,
-            "ingredients": ["Sweet potatoes", "Avocado", "Olive oil", "Lime juice", "Salt", "Pepper"]
-        },
-        {
-            "name": "Kale and Chickpea Salad",
-            "price": 90,
-            "calories": 320,
-            "protein": 12,
-            "carbs": 45,
-            "fats": 9,
-            "ingredients": ["Kale", "Chickpeas", "Lemon juice", "Olive oil", "Garlic", "Cumin"]
-        },
-        {
-            "name": "Miso Soup with Seaweed and Tofu",
-            "price": 95,
-            "calories": 180,
-            "protein": 12,
-            "carbs": 15,
-            "fats": 6,
-            "ingredients": ["Miso paste", "Seaweed", "Tofu", "Green onions", "Soy sauce", "Dashi broth"]
-        },
-        {
-            "name": "Grilled Turkey Breast with Broccoli",
-            "price": 140,
-            "calories": 400,
-            "protein": 50,
-            "carbs": 10,
-            "fats": 12,
-            "ingredients": ["Turkey breast", "Broccoli", "Garlic", "Olive oil", "Lemon juice"]
-        },
-        {
-            "name": "Greek Yogurt with Honey and Berries",
-            "price": 85,
-            "calories": 250,
-            "protein": 15,
-            "carbs": 35,
-            "fats": 5,
-            "ingredients": ["Greek yogurt", "Honey", "Blueberries", "Strawberries", "Almond slices"]
-        },
-        {
-            "name": "Eggplant and Tomato Pasta (Whole Wheat)",
-            "price": 120,
-            "calories": 450,
+            "calories": 290,
             "protein": 18,
-            "carbs": 65,
-            "fats": 10,
-            "ingredients": ["Whole wheat pasta", "Eggplant", "Tomato sauce", "Garlic", "Basil", "Olive oil"]
-        },
-        {
-            "name": "Hummus and Whole Wheat Pita",
-            "price": 70,
-            "calories": 300,
-            "protein": 12,
             "carbs": 40,
-            "fats": 10,
-            "ingredients": ["Chickpeas", "Tahini", "Olive oil", "Lemon juice", "Garlic", "Whole wheat pita"]
+            "fats": 6,
+            "ingredients": ["Lentils", "Carrots", "Celery", "Onion", "Garlic", "Vegetable broth"]
         },
         {
-            "name": "Chia Seed Pudding with Almond Milk",
-            "price": 95,
-            "calories": 280,
-            "protein": 8,
+            "name": "Avocado Toast with Eggs",
+            "price": 100,
+            "calories": 350,
+            "protein": 18,
+            "carbs": 30,
+            "fats": 18,
+            "ingredients": ["Whole grain bread", "Avocado", "Eggs", "Lemon", "Salt", "Pepper"]
+        },
+        {
+            "name": "Grilled Tuna with Sweet Potato Mash",
+            "price": 140,
+            "calories": 420,
+            "protein": 40,
             "carbs": 35,
             "fats": 12,
-            "ingredients": ["Chia seeds", "Almond milk", "Maple syrup", "Vanilla extract", "Berries"]
+            "ingredients": ["Tuna steak", "Sweet potato", "Garlic", "Butter", "Parsley", "Lemon"]
         },
         {
-            "name": "Steamed Fish with Ginger and Bok Choy",
-            "price": 160,
-            "calories": 350,
-            "protein": 40,
-            "carbs": 10,
-            "fats": 15,
-            "ingredients": ["White fish fillet", "Ginger", "Bok choy", "Soy sauce", "Sesame oil"]
+            "name": "Greek Yogurt with Honey and Nuts",
+            "price": 80,
+            "calories": 220,
+            "protein": 15,
+            "carbs": 25,
+            "fats": 5,
+            "ingredients": ["Greek yogurt", "Honey", "Walnuts", "Almonds", "Cinnamon"]
+        },
+        {
+            "name": "Chickpea and Spinach Curry",
+            "price": 90,
+            "calories": 310,
+            "protein": 14,
+            "carbs": 45,
+            "fats": 10,
+            "ingredients": ["Chickpeas", "Spinach", "Tomatoes", "Onion", "Garlic", "Curry powder"]
         }
     ]
 }
