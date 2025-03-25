@@ -45,14 +45,15 @@ function getMeals() {
             }
 
             filteredMeals.forEach(meal => {
-                resultsDiv.innerHTML += `
-                    <div class="meal-card">
-                        <h3>${meal.name} - ₱${meal.price}</h3>
-                        <p><strong>Calories:</strong> ${meal.calories} kcal</p>
-                        <p><strong>Protein:</strong> ${meal.protein}g | <strong>Carbs:</strong> ${meal.carbs}g | <strong>Fats:</strong> ${meal.fats}g</p>
-                        <p><strong>Ingredients:</strong> ${meal.ingredients.join(", ")}</p>
-                    </div>
+                let mealCard = document.createElement("div");
+                mealCard.classList.add("meal-card");
+                mealCard.innerHTML = `
+                    <h3>${meal.name} - ₱${meal.price}</h3>
+                    <p><strong>Calories:</strong> ${meal.calories} kcal</p>
+                    <p><strong>Protein:</strong> ${meal.protein}g | <strong>Carbs:</strong> ${meal.carbs}g | <strong>Fats:</strong> ${meal.fats}g</p>
+                    <p><strong>Ingredients:</strong> ${meal.ingredients.join(", ")}</p>
                 `;
+                resultsDiv.appendChild(mealCard);
             });
         })
         .catch(error => console.error("Error fetching meals:", error));
