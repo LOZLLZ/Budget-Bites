@@ -31,14 +31,29 @@ function login() {
 
 function getMeals() {
     let budget = document.getElementById("budget-input").value;
+    
     fetch("data.json")
         .then(response => response.json())
         .then(data => {
             let filteredMeals = data.meals.filter(meal => meal.price <= budget);
             let resultsDiv = document.getElementById("meal-results");
-            resultsDiv.innerHTML = "";
+            resultsDiv.innerHTML = ""; // Clear previous results
+
+            if (filteredMeals.length === 0) {
+                resultsDiv.innerHTML = "<p>No meals found within this budget.</p>";
+                return;
+            }
+
             filteredMeals.forEach(meal => {
-                resultsDiv.innerHTML += `<p>${meal.name} - ₱${meal.price}</p>`;
+                resultsDiv.innerHTML += `
+                    <div class="meal-card">
+                        <h3>${meal.name} - ₱${meal.price}</h3>
+                        <p><strong>Calories:</strong> ${meal.calories} kcal</p>
+                        <p><strong>Protein:</strong> ${meal.protein}g | <strong>Carbs:</strong> ${meal.carbs}g | <strong>Fats:</strong> ${meal.fats}g</p>
+                        <p><strong>Ingredients:</strong> ${meal.ingredients.join(", ")}</p>
+                    </div>
+                `;
             });
-        });
+        })
+        .catch(error => console.error("Error fetching meals:", error));
 }
