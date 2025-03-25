@@ -8,7 +8,11 @@
             "carbs": 5,
             "fats": 10,
             "ingredients": ["Chicken", "Ginger", "Papaya", "Spinach", "Garlic", "Onion"],
-            "grocery_stores": ["SM Supermarket Manila", "Puregold Taytay", "Robinsons Supermarket Mandaluyong"]
+            "grocery_stores": [
+                "SM Supermarket Manila (Manila)",
+                "Puregold Taytay (Rizal)",
+                "Robinsons Supermarket Mandaluyong (Manila)"
+            ]
         },
         {
             "name": "Laing with Brown Rice",
@@ -18,7 +22,11 @@
             "carbs": 55,
             "fats": 12,
             "ingredients": ["Taro leaves", "Coconut milk", "Chili", "Dried fish", "Garlic", "Brown rice"],
-            "grocery_stores": ["Rustan’s Supermarket Makati", "AllDay Supermarket Antipolo", "SM Hypermarket Pasig"]
+            "grocery_stores": [
+                "Rustan’s Supermarket Makati (Manila)",
+                "AllDay Supermarket Antipolo (Rizal)",
+                "SM Hypermarket Pasig (Manila)"
+            ]
         },
         {
             "name": "Inihaw na Bangus",
@@ -28,7 +36,11 @@
             "carbs": 8,
             "fats": 12,
             "ingredients": ["Bangus (Milkfish)", "Tomato", "Onion", "Lemon", "Salt", "Pepper"],
-            "grocery_stores": ["Landers Superstore BGC", "Robinsons Supermarket Marikina", "S&R Membership Shopping Alabang"]
+            "grocery_stores": [
+                "Landers Superstore BGC (Manila)",
+                "Robinsons Supermarket Marikina (Manila)",
+                "S&R Membership Shopping Alabang (Manila)"
+            ]
         },
         {
             "name": "Grilled Chicken Salad",
@@ -38,7 +50,11 @@
             "carbs": 10,
             "fats": 8,
             "ingredients": ["Grilled chicken", "Lettuce", "Tomatoes", "Cucumbers", "Olive oil", "Lemon"],
-            "grocery_stores": ["SM Supermarket Manila", "Puregold Taytay", "Robinsons Supermarket Mandaluyong"]
+            "grocery_stores": [
+                "SM Supermarket Manila (Manila)",
+                "Puregold Taytay (Rizal)",
+                "Robinsons Supermarket Mandaluyong (Manila)"
+            ]
         },
         {
             "name": "Quinoa and Vegetable Stir-Fry",
@@ -48,7 +64,11 @@
             "carbs": 50,
             "fats": 10,
             "ingredients": ["Quinoa", "Broccoli", "Carrots", "Bell peppers", "Soy sauce", "Garlic"],
-            "grocery_stores": ["Rustan’s Supermarket Makati", "AllDay Supermarket Antipolo", "SM Hypermarket Pasig"]
+            "grocery_stores": [
+                "Rustan’s Supermarket Makati (Manila)",
+                "AllDay Supermarket Antipolo (Rizal)",
+                "SM Hypermarket Pasig (Manila)"
+            ]
         },
         {
             "name": "Salmon with Steamed Vegetables",
@@ -58,7 +78,11 @@
             "carbs": 15,
             "fats": 22,
             "ingredients": ["Salmon fillet", "Broccoli", "Carrots", "Olive oil", "Lemon", "Herbs"],
-            "grocery_stores": ["Landers Superstore BGC", "Robinsons Supermarket Marikina", "S&R Membership Shopping Alabang"]
+            "grocery_stores": [
+                "Landers Superstore BGC (Manila)",
+                "Robinsons Supermarket Marikina (Manila)",
+                "S&R Membership Shopping Alabang (Manila)"
+            ]
         },
         {
             "name": "Oatmeal with Fruits and Nuts",
@@ -68,7 +92,11 @@
             "carbs": 45,
             "fats": 7,
             "ingredients": ["Oats", "Banana", "Almonds", "Chia seeds", "Milk", "Honey"],
-            "grocery_stores": ["Shopwise Cubao", "WalterMart Makati", "Allday Supermarket San Mateo"]
+            "grocery_stores": [
+                "Shopwise Cubao (Manila)",
+                "WalterMart Makati (Manila)",
+                "Allday Supermarket San Mateo (Rizal)"
+            ]
         },
         {
             "name": "Brown Rice with Tofu and Vegetables",
@@ -78,7 +106,11 @@
             "carbs": 55,
             "fats": 8,
             "ingredients": ["Brown rice", "Tofu", "Bell peppers", "Zucchini", "Soy sauce", "Sesame oil"],
-            "grocery_stores": ["SM Hypermarket Ortigas", "Puregold Cainta", "Landers Superstore Otis"]
+            "grocery_stores": [
+                "SM Hypermarket Ortigas (Manila)",
+                "Puregold Cainta (Rizal)",
+                "Landers Superstore Otis (Rizal)"
+            ]
         },
         {
             "name": "Pochero (Beef Stew with Vegetables)",
@@ -88,7 +120,11 @@
             "carbs": 40,
             "fats": 18,
             "ingredients": ["Beef shank", "Saba banana", "Cabbage", "Tomato sauce", "Chickpeas", "Garlic"],
-            "grocery_stores": ["Shopwise Cubao", "WalterMart Makati", "Allday Supermarket San Mateo"]
+            "grocery_stores": [
+                "Shopwise Cubao (Manila)",
+                "WalterMart Makati (Manila)",
+                "Allday Supermarket San Mateo (Rizal)"
+            ]
         },
         {
             "name": "Paksiw na Isda",
@@ -98,7 +134,11 @@
             "carbs": 5,
             "fats": 8,
             "ingredients": ["Tilapia", "Vinegar", "Garlic", "Onion", "Ginger", "Bay leaves"],
-            "grocery_stores": ["SM Hypermarket Ortigas", "Puregold Cainta", "Landers Superstore Otis"]
+            "grocery_stores": [
+                "SM Hypermarket Ortigas (Manila)",
+                "Puregold Cainta (Rizal)",
+                "Landers Superstore Otis (Rizal)"
+            ]
         },
         {
             "name": "Arroz Caldo with Boiled Egg",
@@ -108,7 +148,11 @@
             "carbs": 50,
             "fats": 8,
             "ingredients": ["Glutinous rice", "Ginger", "Chicken", "Egg", "Garlic", "Spring onions"],
-            "grocery_stores": ["SM Supermarket Manila", "Puregold Taytay", "Robinsons Supermarket Mandaluyong"]
+            "grocery_stores": [
+                "SM Supermarket Manila (Manila)",
+                "Puregold Taytay (Rizal)",
+                "Robinsons Supermarket Mandaluyong (Manila)"
+            ]
         },
         {
             "name": "Pinakbet with Grilled Chicken",
@@ -118,7 +162,11 @@
             "carbs": 30,
             "fats": 12,
             "ingredients": ["Bitter gourd", "Eggplant", "Squash", "String beans", "Shrimp paste", "Grilled chicken"],
-            "grocery_stores": ["Rustan’s Supermarket Makati", "AllDay Supermarket Antipolo", "SM Hypermarket Pasig"]
+            "grocery_stores": [
+                "Rustan’s Supermarket Makati (Manila)",
+                "AllDay Supermarket Antipolo (Rizal)",
+                "SM Hypermarket Pasig (Manila)"
+            ]
         },
         {
             "name": "Bulanglang (Vegetable Soup)",
@@ -128,7 +176,11 @@
             "carbs": 20,
             "fats": 6,
             "ingredients": ["Squash", "Tomatoes", "Okra", "Eggplant", "String beans", "Fish sauce"],
-            "grocery_stores": ["Landers Superstore BGC", "Robinsons Supermarket Marikina", "S&R Membership Shopping Alabang"]
+            "grocery_stores": [
+                "Landers Superstore BGC (Manila)",
+                "Robinsons Supermarket Marikina (Manila)",
+                "S&R Membership Shopping Alabang (Manila)"
+            ]
         },
         {
             "name": "Chicken Afritada with Brown Rice",
@@ -138,7 +190,11 @@
             "carbs": 45,
             "fats": 12,
             "ingredients": ["Chicken breast", "Tomato sauce", "Potato", "Carrots", "Bell peppers", "Brown rice"],
-            "grocery_stores": ["Shopwise Cubao", "WalterMart Makati", "Allday Supermarket San Mateo"]
+            "grocery_stores": [
+                "Shopwise Cubao (Manila)",
+                "WalterMart Makati (Manila)",
+                "Allday Supermarket San Mateo (Rizal)"
+            ]
         },
         {
             "name": "Ginisang Ampalaya with Egg",
@@ -148,7 +204,11 @@
             "carbs": 10,
             "fats": 8,
             "ingredients": ["Bitter gourd", "Eggs", "Garlic", "Onion", "Tomatoes", "Soy sauce"],
-            "grocery_stores": ["SM Hypermarket Ortigas", "Puregold Cainta", "Landers Superstore Otis"]
+            "grocery_stores": [
+                "SM Hypermarket Ortigas (Manila)",
+                "Puregold Cainta (Rizal)",
+                "Landers Superstore Otis (Rizal)"
+            ]
         }
     ]
 }
